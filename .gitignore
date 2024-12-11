@@ -22,3 +22,29 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Tailwind CSS
+/node_modules
+coverage
+cli
+lib
+peers
+example
+.vscode
+.DS_Store
+.parcel-cache
+tailwind.config.js
+index.html
+yarn.lock
+yarn-error.log
+types/generated/*.d.ts
+.turbo
+isolate*.log
+/src/corePluginList.js
+/tests/evaluate-tailwind-functions.test.html
+
+# Next.js
+next_modules/
+public/static/
+pages/_app.js
+pages/_document.js
